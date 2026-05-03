@@ -34,63 +34,6 @@ Conscious Life proposes an educational and accessible solution, centralizing inf
 ## 🚫 Deployment Problem
 Unfortunately, it was not possible to deploy the application in this version. Therefore, to run the project locally, it is necessary to download and run **both the front-end and back-end repositories**.
 
-### ▶ How to run the project (front-end and back-end)
-
-To clone and run this project, follow the steps below:
-
-1. **Clone the repositories (front and back-end)**:
-
-- Front-end:
-
-``bash
-git clone https://github.com/brenddamachado/VidaConsciente
-
-``
-
-- Back-end:
-
-``bash
-git clone https://github.com/brenddamachado/VidaConsciente_Back
-
-``
-
-2. **Install the dependencies**:
-
-- Access the project folders and install the dependencies on both the front-end and the back-end:
-
-``bash
-cd VidaConsciente
-npm install
-
-``
-
-``bash
-cd ../VidaConsciente_Back
-npm install
-
-``
-
-3. **Run the front-end**:
-
-- After installing the dependencies, run the command below to run the Front-end:
-
-``bash
-npm run dev
-
-``
-
-4. **Run the back-end**:
-
-- In another terminal tab, access the back-end folder and run the server:
-
-``bash
-npm run dev
-
-``
-
-5. **Open your browser**:
-
-- Access the project running at `http://localhost:3000` to view the front-end.
 
 ## 📅 Conclusion
 The Vida Consciente project was developed with the goal of offering an educational and accessible platform, promoting awareness and self-care regarding sexually transmitted infections (STIs). Through the CRUD functionalities implemented in the four main APIs, users can manage personal information, access data on STIs, locate testing and treatment centers, and view registered cases. This project has a p
