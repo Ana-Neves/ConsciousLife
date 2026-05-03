@@ -1,79 +1,95 @@
-# Vida Consciente
-## 📋 Sobre o projeto
-Este projeto foi desenvolvido no Módulo 5 do programa [Programadores do Amanhã](https://programadoresdoamanha.org/), pela Squad 1, composta por Alexsandro Filho, Ana Carolina Neves, Brenda Machado, Elzo Íthallo, Hewel Vieira, Jamyle Elen, Joicy Kelly e Rodrigo Átila. O projeto aplica os conhecimentos adquiridos no Módulo 4 sobre APIs REST, com o objetivo de fornecer uma plataforma educativa e acessível que promova a saúde e o conhecimento sobre infecções sexualmente transmissíveis (DSTs/ISTs).
+#Conscious Life
+## 📋 About the project
+This project was developed in Module 5 of the [Programmers of Tomorrow](https://programadoresdoamanha.org/) program, by Squad 1, composed of Alexsandro Filho, Ana Carolina Neves, Brenda Machado, Elzo Íthallo, Hewel Vieira, Jamyle Elen, Joicy Kelly, and Rodrigo Átila. The project applies the knowledge acquired in Module 4 on REST APIs, with the goal of providing an educational and accessible platform that promotes health and knowledge about sexually transmitted infections (STIs).
 
-Este repositório contém o front-end do site Vida Consciente, responsável por gerenciar telas intuitivas e dinâmicas, onde o usuário pode se cadastrar, logar e terá gráficos, cards e mapa dinâmico. O Back-end do projeto, desenvolvido paralelamente, pode ser acessado no seguinte repositório: [Vida Consciente - Back-end](https://github.com/brenddamachado/VidaConsciente_Back).
+This repository contains the front-end of the Conscious Life website, responsible for managing intuitive and dynamic screens, where the user can register, log in, and will have graphs, cards, and a dynamic map. The project's back-end, developed in parallel, can be accessed in the following repository: [Conscious Life - Back-end](https://github.com/brenddamachado/VidaConsciente_Back).
 
-## 🚫 Problematização
-As infecções sexualmente transmissíveis continuam sendo um desafio de saúde pública, em grande parte devido à falta de conhecimento e conscientização da população. Muitas pessoas não têm acesso facilitado a informações confiáveis sobre prevenção e cuidados, o que contribui não apenas para a disseminação dessas doenças, mas também para a propagação de informações falsas e mitos sobre o tema. Essa desinformação pode gerar comportamentos de risco, atrasar diagnósticos e prejudicar o tratamento adequado.
+## 🚫 Problem Statement
+Sexually transmitted infections continue to be a public health challenge, largely due to a lack of knowledge and awareness among the population. Many people do not have easy access to reliable information about prevention and care, which contributes not only to the spread of these diseases but also to the propagation of false information and myths about the subject. This misinformation can lead to risky behaviors, delay diagnoses, and hinder proper treatment.
 
-- **O que é DST/ISTs?**  
-  DSTs (Doenças Sexualmente Transmissíveis) ou ISTs (Infecções Sexualmente Transmissíveis) são doenças ou infecções que são transmitidas principalmente por meio do contato sexual sem proteção, seja vaginal, anal ou oral. Elas podem ser causadas por bactérias, vírus, fungos ou parasitas. O termo "IST" é mais recente e vem sendo usado com mais frequência, pois destaca que uma pessoa pode estar infectada e transmitir a doença mesmo sem apresentar sintomas aparentes.
+- **What are STDs/STIs?**
+STDs (Sexually Transmitted Diseases) or STIs (Sexually Transmitted Infections) are diseases or infections that are mainly transmitted through unprotected sexual contact, whether vaginal, anal, or oral. They can be caused by bacteria, viruses, fungi, or parasites. The term "STI" is more recent and is being used more frequently, as it highlights that a person can be infected and transmit the disease even without showing apparent symptoms.
 
-  Entre as DSTs/ISTs mais comuns estão: HIV/AIDS, sífilis, gonorreia, clamídia, herpes genital, HPV e tricomoníase. A prevenção dessas doenças é feita principalmente com o uso de preservativos e pela educação sobre práticas sexuais seguras.
+Among the most common STDs/STIs are: HIV/AIDS, syphilis, gonorrhea, chlamydia, genital herpes, HPV, and trichomoniasis. Prevention of these diseases is mainly done through the use of condoms and education about safe sex practices.
 
-## 💡 Solução
-Vida Consciente propõe uma solução educativa e acessível, centralizando informações sobre DSTs/ISTs de forma prática e clara. O site oferece dados sobre sintomas, tratamentos, prevenção, tipos e casos de DSTs/ISTs, entre outras informações que podem ajudar na conscientização e promoção da saúde.
+## 💡 Solution
+Conscious Life proposes an educational and accessible solution, centralizing information about STDs/STIs in a practical and clear way. The website offers data on symptoms, treatments, prevention, types and cases of STDs/STIs, among other information that can help in raising awareness and promoting health.
 
-## 🚀 Tecnologias Utilizadas
-- **React**: Utilizado para construção da interface de usuário, garantindo uma experiência dinâmica e responsiva.
-- **Express.js**: Framework back-end utilizado para construir a API REST.
-- **Node.js**: Ambiente de execução para o back-end, permitindo a criação de uma API eficiente.
-- **Leaflet**: Biblioteca de mapas interativos utilizada para exibir os locais de testagem de DSTs.
-- **Chart.js**: Utilizado para criar gráficos que exibem a evolução dos casos de DSTs ao longo do tempo.
-- **Axios**: Biblioteca de requisições HTTP usada para comunicação entre o front-end e o back-end.
-- **Styled Components**: Para a estilização de componentes com CSS-in-JS, permitindo uma interface customizável e moderna.
+## 🚀 Technologies Used
+- **React**: Used to build the user interface, ensuring a dynamic and responsive experience.
 
+- **Express.js**: Back-end framework used to build the REST API.
 
-## 🚫 Problema com o Deploy
-Infelizmente, não foi possível realizar o deploy da aplicação nesta versão. Portanto, para rodar o projeto localmente, é necessário baixar e executar **tanto o repositório do front-end quanto o do back-end**.
+- **Node.js**: Runtime environment for the back-end, allowing the creation of an efficient API.
 
-### ▶ Como rodar o projeto (front-end e back-end)
-Para clonar e rodar este projeto, siga os passos abaixo:
+- **Leaflet**: Interactive map library used to display the testing locations of STDs.
 
-1. **Clone os repositórios (front e back-end)**:
-   - Front-end:
-     ```bash
-     git clone https://github.com/brenddamachado/VidaConsciente
-     ```
-   - Back-end:
-     ```bash
-     git clone https://github.com/brenddamachado/VidaConsciente_Back
-     ```
+- **Chart.js**: Used to create charts that display the evolution of STD cases over time.
 
-2. **Instale as dependências**:
-   - Acesse as pastas do projeto e instale as dependências tanto no front-end quanto no back-end:
-     ```bash
-     cd VidaConsciente
-     npm install
-     ```
-     ```bash
-     cd ../VidaConsciente_Back
-     npm install
-     ```
+- **Axios**: HTTP request library used for communication between the front-end and the back-end.
 
-3. **Execute o front-end**:
-   - Após instalar as dependências, execute o comando abaixo para rodar o front-end:
-     ```bash
-     npm run dev
-     ```
+- **Styled Components**: For styling components with CSS-in-JS, allowing for a customizable and modern interface.
 
-4. **Execute o back-end**:
-   - Em outra aba do terminal, acesse a pasta do back-end e rode o servidor:
-     ```bash
-     npm run dev
-     ```
+## 🚫 Deployment Problem
+Unfortunately, it was not possible to deploy the application in this version. Therefore, to run the project locally, it is necessary to download and run **both the front-end and back-end repositories**.
 
-5. **Abra o navegador**:
-   - Acesse o projeto rodando em `http://localhost:3000` para visualizar o front-end.
+### ▶ How to run the project (front-end and back-end)
 
-## 📅 Conclusão
-O projeto Vida Consciente foi desenvolvido com o objetivo de oferecer uma plataforma educativa e acessível, promovendo a conscientização e o autocuidado em relação às infecções sexualmente transmissíveis (DSTs/ISTs). Através das funcionalidades CRUD implementadas nas quatro APIs principais, os usuários podem gerenciar informações pessoais, acessar dados sobre DSTs, localizar centros de testagem e tratamento, além de visualizar casos registrados. Esse projeto tem um papel fundamental ao tornar informações confiáveis mais acessíveis, contribuindo para a educação e a prevenção dessas doenças.
+To clone and run this project, follow the steps below:
 
-Uma melhoria significativa para o futuro desenvolvimento do projeto seria a implementação de um banco de dados real para armazenar as informações, substituindo os dados atualmente mocados. Isso permitiria maior escalabilidade, segurança e flexibilidade na gestão dos dados, além de proporcionar uma experiência mais robusta para os usuários da plataforma.
+1. **Clone the repositories (front and back-end)**:
 
-## 💻 Colaboradores
-- [Brenda Machado](https://github.com/brenddamachado)
-- [Jamyle Elen](https://github.com/Jamyle-Elen)
-- [Ana Neves ](https://github.com/Ana-Neves)
+- Front-end:
 
+``bash
+git clone https://github.com/brenddamachado/VidaConsciente
+
+``
+
+- Back-end:
+
+``bash
+git clone https://github.com/brenddamachado/VidaConsciente_Back
+
+``
+
+2. **Install the dependencies**:
+
+- Access the project folders and install the dependencies on both the front-end and the back-end:
+
+``bash
+cd VidaConsciente
+npm install
+
+``
+
+``bash
+cd ../VidaConsciente_Back
+npm install
+
+``
+
+3. **Run the front-end**:
+
+- After installing the dependencies, run the command below to run the Front-end:
+
+``bash
+npm run dev
+
+``
+
+4. **Run the back-end**:
+
+- In another terminal tab, access the back-end folder and run the server:
+
+``bash
+npm run dev
+
+``
+
+5. **Open your browser**:
+
+- Access the project running at `http://localhost:3000` to view the front-end.
+
+## 📅 Conclusion
+The Vida Consciente project was developed with the goal of offering an educational and accessible platform, promoting awareness and self-care regarding sexually transmitted infections (STIs). Through the CRUD functionalities implemented in the four main APIs, users can manage personal information, access data on STIs, locate testing and treatment centers, and view registered cases. This project has a p
