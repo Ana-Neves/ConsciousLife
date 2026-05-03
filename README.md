@@ -1,4 +1,5 @@
-### Conscious Life
+## Conscious Life
+
 ## 📋 About the project
 This project was developed in Module 5 of the [Programmers of Tomorrow](https://programadoresdoamanha.org/) program, by Squad 1, composed of Alexsandro Filho, Ana Carolina Neves, Brenda Machado, Elzo Íthallo, Hewel Vieira, Jamyle Elen, Joicy Kelly, and Rodrigo Átila. The project applies the knowledge acquired in Module 4 on REST APIs, with the goal of providing an educational and accessible platform that promotes health and knowledge about sexually transmitted infections (STIs).
 
